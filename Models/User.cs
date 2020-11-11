@@ -19,7 +19,5 @@ namespace NightFlow.Messenger.Models
 
         public Account Account { get; set; }
 
-       
-
     }
 }

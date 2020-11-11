@@ -13,10 +13,12 @@ namespace NightFlow.Messenger.Models
 
         public string Password  { get; set; }
 
+        public int ConfirmationId { get; set; }
+
+        public Confirmation Confirmation { get; set; }
+
         public int UserId { get; set; }
 
         public User User { get; set; }
-
-
     }
 }
